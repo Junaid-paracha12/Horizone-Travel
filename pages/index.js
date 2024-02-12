@@ -1,21 +1,23 @@
-import Booking from "@/carcomponents/Booking";
-import Discount from "@/carcomponents/Discount";
-import Hero from "@/carcomponents/Hero";
-import Journey from "@/carcomponents/Journey";
-import Topcars from "@/carcomponents/Topcars";
 
+import Activities from "@/components/homecomponents/Activities";
+import Deals from "@/components/homecomponents/Deals";
+import Footer from "@/components/homecomponents/Footer";
+import Hero from "@/components/homecomponents/Hero";
+import Memories from "@/components/homecomponents/Memories";
+import Navbar from "@/components/homecomponents/Navbar";
+import Villas from "@/components/homecomponents/Villas";
+import React from "react";
 
-
-
-
-export default function index() {
+export default function home() {
   return (
     <div className="app-container flex flex-col gap-8">
-    <Hero />
-    <Topcars />
-    <Journey />
-    <Discount/>
-    <Booking />
+      <Navbar />
+      <Hero />
+      <Deals />
+      <Villas />
+      <Activities />
+      <Memories />
+      <Footer />
     </div>
   );
 }
