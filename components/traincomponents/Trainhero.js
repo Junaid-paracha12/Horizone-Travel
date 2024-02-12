@@ -14,7 +14,7 @@ export default function Trainhero() {
             height={100}
           />
           <div className="absolute inset-0 flex flex-col gap-6   bg-gradient-to-b from-slate-900/80 to-black/30 rounded-lg justify-center md:justify-end py-5 px-4 ">
-            <div className="mb-0 md:mb-60 lg:mb-56 text-center md:text-start">
+            <div className="mb-0 md:mb-80 lg:mb-56 text-center md:text-start">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-white">
                 Navigate the World by Rail
               </h1>
