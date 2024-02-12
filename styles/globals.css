@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .app-container {
+    @apply w-[98vw] m-auto;
+  }
+  .button-theme {
+    @apply  transition-all duration-200 active:scale-90 font-semibold px-5 py-1.5 text-xs lg:text-base;
+  }
+}
