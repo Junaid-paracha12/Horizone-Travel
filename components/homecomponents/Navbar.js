@@ -41,7 +41,7 @@ export default function Navbar() {
               <Link href={"/hotel"} className="text-xs lg:text-base">Hotel</Link>
               <Link href={"/flight"} className="text-xs lg:text-base">Flight</Link>
               <Link href={"/train"} className="text-xs lg:text-base">Train</Link>
-              <li className="text-xs lg:text-base">Travel</li>
+              <Link href={"/travel"} className="text-xs lg:text-base">Travel</Link>
               <Link href={"/carrental"} className="text-xs lg:text-base">Car Rental</Link>
             </ul>
           </div>
