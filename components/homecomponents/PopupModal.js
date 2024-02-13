@@ -9,9 +9,9 @@ export default function PopupModal() {
         <ul className="flex items-start flex-col gap-3  ">
         <Link href={"/hotel"}>Hotel</Link>
           <Link href={"/flight"}>Flight</Link>
-          <li>Train</li>
-          <li>Travel</li>
-          <li>Car Rental</li>
+          <Link href={"/train"}>Train</Link>
+          <Link href={"/travel"}>Travel</Link>
+          <Link href={"/carrental"}>Car Rental</Link>
           <li className="flex items-center ">
             <span className="bg-white p-1 rounded-full">
               <Image
