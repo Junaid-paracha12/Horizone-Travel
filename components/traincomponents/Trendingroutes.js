@@ -24,37 +24,30 @@ export default function trendingroutes() {
           </button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Tallin to Riga</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Zurich to Innsburk
+            Venice to Dubrovnik
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Oslo to Stockholm</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Vienna to Budapest</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Madrid to Porto
+            Edinburgh to Inverness
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Tallin to Riga</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Amsterdam to Athens</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Zurich to Innsburk
+            Kiruna to Tromso
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Oslo to Stockholm</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Barcelona to Rome</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Madrid to Porto
+            Cologne to Basel
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Tallin to Riga</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Sofia to Thessaloniki</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Zurich to Innsburk
+            Moscow to Berlin
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Oslo to Stockholm</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Glassgow to Fort William</button>
           <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Madrid to Porto
+            Toulouse to San Sebastian
           </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Tallin to Riga</button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Zurich to Innsburk
-          </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Oslo to Stockholm</button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">
-            Madrid to Porto
-          </button>
-          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Tallin to Riga</button>
+          <button className="border py-1.5 px-3 rounded-lg text-xs lg:text-sm font-semibold">Capri to Capenhangen</button>
+         
         </div>
       </div>
     </>
