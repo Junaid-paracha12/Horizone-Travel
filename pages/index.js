@@ -38,7 +38,7 @@ export default function Home() {
         </>
       ) : (
         <div className="relative my-2">
-        
+        <Navbar />
           <Image
             src="/pac5.jpg"
             alt="img"
