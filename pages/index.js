@@ -26,9 +26,9 @@ export default function Home() {
 
   return (
     <div className="app-container flex flex-col gap-8">
+       <Navbar />
       {isAuthenticated ? (
         <>
-          <Navbar />
           <Hero />
           <Deals />
           <Villas />
@@ -37,46 +37,62 @@ export default function Home() {
           <Footer />
         </>
       ) : (
+        
         <div className="relative my-2">
-        <Navbar />
+          
           <Image
-            src="/pac5.jpg"
+            src="/pac2.jpg"
             alt="img"
             width={2000}
-            height={3000}
-            className="w-full h-[100vh] rounded-lg"
+            height={500}
+            className="w-full xl:h-[100vh]  rounded-lg"
           />
-          <div className="absolute inset-0 flex flex-col gap-6   bg-gradient-to-b from-slate-900/80 to-black/30 rounded-lg  py-5 px-4 justify-center ">
-            <div className="flex items-end w-full justify-end mt-16">
-              <div className="bg-white flex flex-col w-96 p-4 gap-4 rounded-md">
+          <div className="absolute inset-0 flex flex-col gap-6   bg-gradient-to-b from-slate-900/80 to-black/30 rounded-lg  py-6 px-4 justify-end ">
+            <div className="flex items-end w-full justify-end ">
+              <div className="bg-white flex flex-col w-96 p-4 gap-2 rounded-md mt-10">
                 <div>
-                  <h1 className="text-2xl font-semibold">Welcome Back!</h1>
-                  <p className="text-xs text-slate-500">Hey there! Ready to jump back in?</p>
+                  <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">Welcome Back!</h1>
+                  <p className="text-xs text-slate-500">
+                    Hey there! Ready to jump back in?
+                  </p>
                 </div>
-                <button className="ring-1 ring-slate-500/60 rounded-md button-theme">
+                <button className="border border-slate-500/60 rounded-md button-theme flex items-center gap-2  justify-center">
                   Continue with Linkedin
+                  <Image src="/google.png" width={20} height={20} className="h-5 w-5"/>
                 </button>
-                <button className="ring-1 ring-slate-500/60 rounded-md button-theme">
+                <button className="border border-slate-500/60 rounded-md button-theme flex items-center gap-2  justify-center">
                   Continue with Apple
+                  <Image src="/apple.png" width={20} height={20} className="h-5 w-5"/>
                 </button>
                 <label className="flex flex-col">
                   Email Address
+                  <div className="relative">
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Username or Email"
-                    className=""
+                    className="py-1.5 px-7 w-full"
                   />
+                  <span className="absolute left-1 top-2">
+                    <Image src="/email.png" width={20} height={20} className="h-5 w-5" />
+                  </span>
+                  </div>
                 </label>
                 <label className="flex flex-col">
                   Password
+                  <div className="relative">
                   <input
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter password"
+                    className="py-1.5 px-7 w-full"
                   />
+                   <span className="absolute left-1 top-2">
+                    <Image src="/lock.png" width={20} height={20} className="h-5 w-5" />
+                  </span>
+                  </div>
                 </label>
                 <button
                   onClick={handleSignIn}
@@ -95,7 +111,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-sm">
-              <h1 className="text-5xl font-semibold text-white">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white">
                 Book Your Adventure Now
               </h1>
             </div>

@@ -130,20 +130,7 @@ export default function Routes() {
                 <h1 className="text-base md:text-lg font-semibold">
                   {v.title}
                 </h1>
-                <div>
-                  <span className="flex items-center gap-1">
-                    {" "}
-                    <Image
-                      src={v.adsicon}
-                      className="w-3 h-3 md:h-4 md:w-4"
-                      width={20}
-                      height={20}
-                      alt="icon"
-                    />
-                    <p className="text-slate-700/70 text-xs md:text-sm">
-                      {v.address}
-                    </p>
-                  </span>
+                <div> 
                   <span className="flex items-center gap-1">
                     {" "}
                     <Image
@@ -157,6 +144,20 @@ export default function Routes() {
                       {v.type}
                     </p>
                   </span>
+                  <span className="flex items-center gap-1">
+                    {" "}
+                    <Image
+                      src={v.adsicon}
+                      className="w-3 h-3 md:h-4 md:w-4"
+                      width={20}
+                      height={20}
+                      alt="icon"
+                    />
+                    <p className="text-slate-700/70 text-xs md:text-sm">
+                      {v.address}
+                    </p>
+                  </span>
+                 
                 </div>
                 <div>
                   <p className="text-xs md:text-sm text-slate-700/70 ">

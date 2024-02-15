@@ -51,7 +51,7 @@ export default function Travelhero() {
                     />
                     <span className="absolute left-2 top-2.5 ">
                       <Image
-                        src="/trainicon.png"
+                        src="/bus.png"
                         width={20}
                         height={20}
                         alt="icon"
@@ -88,7 +88,7 @@ export default function Travelhero() {
                   />
                   <span className="absolute left-2 top-2.5 ">
                     <Image
-                      src="/trainicon.png"
+                      src="/bus.png"
                       width={20}
                       height={20}
                       alt="icon"
@@ -107,7 +107,13 @@ export default function Travelhero() {
                 </div>
               </div>
               <div>
-                <p className="text-xs md:text-sm font-semibold">Departure</p>
+                <div className="flex items-center justify-between">
+                  <p className="text-xs md:text-sm font-semibold">Departure</p>
+
+                  <p className="text-xs md:text-sm font-semibold">
+                    Round-trip?
+                  </p>
+                </div>
                 <div className="relative">
                   <input
                     placeholder="14 jan 2024"
