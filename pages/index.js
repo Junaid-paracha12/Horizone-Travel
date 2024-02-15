@@ -45,7 +45,7 @@ export default function Home() {
             alt="img"
             width={2000}
             height={500}
-            className="w-full xl:h-[100vh]  rounded-lg"
+            className="w-full xl:h-[100vh]  rounded-lg object-cover"
           />
           <div className="absolute inset-0 flex flex-col gap-6   bg-gradient-to-b from-slate-900/80 to-black/30 rounded-lg  py-6 px-4 justify-end ">
             <div className="flex items-end w-full justify-end ">
