@@ -14,11 +14,15 @@ export default function Hero() {
             height={100}
           />
           <div className="absolute inset-0 flex flex-col gap-6   bg-gradient-to-b from-slate-900/80 to-black/30 rounded-lg justify-end py-5 px-4">
+          <div className="mb-0 md:mb-60 lg:mb-44 text-center md:text-start">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-white">Rent a Car for Every Journey</h1>
-             <div className="w-full">
+            </div>
+          </div>
+        </div>{" "}
+        <div className="md:absolute bottom-0 left-0 right-0 my-4 mx-6">
           <div className="flex flex-col gap-5 h-auto bg-white rounded-lg px-4 py-5  shadow-sm ">
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div>
                 <p className="text-xs md:text-sm font-semibold">Departure</p>
                 <div className="flex items-center gap-2">
@@ -170,9 +174,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-          </div>
-        </div>{" "}
-       
       </div>
     </>
   );
